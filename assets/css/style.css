@@ -10,7 +10,7 @@
 img {
     max-width: 100%;
     display: block;
-    box-shadow: 2px 2px 8px rgba(1, 19, 43, 0.25);
+    box-shadow: 0px 2px 24px rgba(1, 19, 43, 0.25);
     border-radius: 4px;
     transition: all .2s;
     cursor: pointer;
@@ -23,10 +23,11 @@ img:hover {
 .container {
     max-width: 960px;
     margin: auto;
+    padding: 0 10px;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(189, 188, 188, 0.25);
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 110%;
     letter-spacing: 1px;
@@ -162,11 +163,16 @@ article {
     display: flex;
     align-items: center;
     margin: 48px 0;
+    box-shadow: 0px 8px 24px rgba(71, 71, 71, 0.15);
+    padding: 20px;
 }
 
 article img {
     height: 300px;
-    margin: 0 40px;
+}
+
+article p {
+    padding: 10px;
 }
 
 .order {
