@@ -12,14 +12,7 @@
     margin: 40px 0;
 }
 
-.portfolio__img-wrapper {
+.gallery{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
     margin-bottom: 50px;
-}
-
-.portfolio__img-wrapper img {
-    height: 200px;
-    margin: 10px;
 }
