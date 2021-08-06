@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(189, 188, 188, 0.25);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 110%;
+    letter-spacing: 1px;
+    color: #122133;
+}
+
+@media (max-width: 860px) {
+    body {
+        font-size: 100%;
+    }
+}
