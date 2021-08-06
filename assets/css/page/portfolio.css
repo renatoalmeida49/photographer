@@ -14,5 +14,24 @@
 
 .gallery{
     display: flex;
+    gap: 4px;
+    transition: .3s;
     margin-bottom: 50px;
+}
+.gallery__column {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+}
+.gallery__thumb {
+    position: relative;
+}
+.gallery__link {
+    overflow: hidden;
+}
+.gallery__image {
+    transition: .3s;
+}
+.gallery__image:hover {
+    transform: scale(1.1);
 }
