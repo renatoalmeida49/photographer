@@ -24,11 +24,33 @@
 
 .studio__content--img-wrapper {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    margin-bottom: 40px;
 }
 
-.studio__content img {
-    height: 150px;
-    margin: 3px;
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex .8s ease;
+}
+.item:hover {
+    flex: 8;
+}
+
+.item-1 {
+    background-image: url('../../images/studio/studio-2.jpg');
+}
+.item-2 {
+    background-image: url('../../images/studio/studio-1.jpg');
+}
+.item-3 {
+    background-image: url('../../images/studio/studio-6.jpg');
+}
+.item-4 {
+    background-image: url('../../images/studio/studio-5.jpg');
 }
