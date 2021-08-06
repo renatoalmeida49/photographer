@@ -1,0 +1,45 @@
+#header {
+    background: url('../../images/studio/studio-1.jpg') top 80% left 0%/cover no-repeat ;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+#header .title {
+    font-size: 4rem;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(1, 19, 43, 0.781);
+}
+
+.menu {
+    background: rgba(1, 19, 43, 0.781);
+    color: rgb(238, 238, 238);
+    padding: 20px;    
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+ul li {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+}
+
+.menu-link:hover {
+    color:rgb(235, 255, 57);
+    transform: scale(1.1);
+}

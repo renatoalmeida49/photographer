@@ -1,0 +1,30 @@
+#testimonials .title {
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.testimonial {
+    display: flex;
+    align-items: center;
+    margin: 48px 0;
+    box-shadow: 0px 8px 24px rgba(71, 71, 71, 0.15);
+    padding: 20px;
+}
+
+.testimonial-photo {
+    height: 300px;
+}
+
+.testimonial-text {
+    padding: 10px;
+}
+
+.order {
+    order: 2;
+}
+
+@media (max-width: 860px) {
+    #testimonials .testimonial {
+        flex-direction: column;
+    }
+}
