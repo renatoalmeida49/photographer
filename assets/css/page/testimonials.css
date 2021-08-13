@@ -3,28 +3,59 @@
     margin-bottom: 40px;
 }
 
-.testimonial {
+.cards {
     display: flex;
-    align-items: center;
-    margin: 48px 0;
-    box-shadow: 0px 8px 24px rgba(71, 71, 71, 0.15);
-    padding: 20px;
 }
 
-.testimonial-photo {
-    height: 300px;
+.testimonial {
+    overflow: hidden;
+    margin: 10px;
+    min-width: 220px;
+    width: 100%;
+    color: #333;
+    text-align: left;
+    flex: 1;
 }
 
-.testimonial-text {
-    padding: 10px;
+.testimonial img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
-.order {
-    order: 2;
+.testimonial blockquote {
+    display: block;
+    background-color: rgb(139, 139, 161);
+    border-radius: 8px;
+    padding: 30px 50px 65px 50px;
+    margin-bottom: -50px;
 }
 
-@media (max-width: 860px) {
-    #testimonials .testimonial {
-        flex-direction: column;
-    }
+.testimonial blockquote:before,
+.testimonial blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+.testimonial blockquote:before {
+    top: 35px;
+    left: 20px;
+}
+.testimonial blockquote:after {
+    content: "\201D";
+}
+
+.testimonial .author {
+    text-transform: uppercase;
+    text-align: center;
+}
+.author h5 span {
+    font-weight: 400;
+    text-transform: none;
+    display: block;
 }
